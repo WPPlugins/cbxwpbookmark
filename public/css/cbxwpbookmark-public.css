@@ -1,0 +1,651 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.cbxwpbkmarktrig {
+
+    padding: 5px;
+    border-bottom: 0px solid #fff !important;
+    display: block;
+    text-decoration: none;
+    background-size: 15px 15px;
+    /*float: left;*/
+    display: inline-block;
+}
+
+.cbxwpbkmarktrig:before {
+    content: "";
+    margin-right: 3px;
+    vertical-align: middle;
+    background: no-repeat url('../img/icon.png') -399px -14px;
+    background-size: auto;
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+
+}
+
+.cbxwpbkmarktrig:focus, .cbxwpbkmarktrig:active {
+    outline: none;
+}
+
+.cbxwpbkmarkwrap {
+    position: relative;
+    width: 300px;
+    max-width: 300px;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.cbxwpbkmarkwrap-download {
+    clear: both;
+}
+
+.cbxwpbkmarklistwrap {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    z-index: 1;
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.cbxwpbkmarkloading {
+    display: none;
+    text-align: center;
+    position: absolute;
+    top: 2px;
+    left: 133px;
+    margin: 0px !important;
+}
+
+.cbxwpbkmarkaddnewcatselect {
+    float: left;
+    display: inline-block;
+
+}
+/*select.cbxwpbkmarkaddnewcatselect {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-size: 10pt;
+    padding: 10px;
+    margin-bottom: 10px;
+}*/
+
+.cbxwpbkmarkaddnewcatcreate {
+    float: right;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.cbxwpbkmarkaddnewwrap {
+    display: none;
+}
+
+.cbxwpbkmarklist {
+    width: 100%;
+}
+
+.cbxwpbkmarkselwrap {
+    display: none;
+}
+
+.cbxwpbkmarkaddnewcat {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    margin-top: 5px;
+}
+p.cbxwpbkmarkaddnewaction_error{
+    display: none;
+    color: #a94442 !important;
+    margin-bottom: 8px;
+    line-height: 20px !important;
+    font-size: 14px !important;
+}
+p.cbxwpbkmarkaddnewaction_success{
+    line-height: 20px !important;
+    font-size: 14px !important;
+    color: #3c763d !important;
+}
+
+.cbxwpbkmarkwrap, .entry-content a.cbxwpbkmarkaddnewcattrig, .entry-summary a.cbxwpbkmarkaddnewcattrig, .page-content a.cbxwpbkmarkaddnewcattrig, .comment-content a.cbxwpbkmarkaddnewcattrig, .pingback .comment-body > a.cbxwpbkmarkaddnewcattrig {
+    text-decoration: none;
+    border-bottom: none !important;
+}
+
+input[type="text"].cbxwpbkmarkaddnewcatinput {
+    outline: 1px solid #ccc;
+    padding: 0px;
+    background: #fff;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 100%;
+    line-height: 26px;
+    font-size: 16px;
+}
+input[type="text"].cbxwpbkmarkaddnewcatinput.error{
+    outline: 1px solid #a94442;
+}
+
+.button-addto {
+
+}
+
+
+.cbxwpbkmarklistwrap .addto-head {
+
+    height: 37px;
+    padding: 10px;
+    display: block;
+    border-bottom: 1px solid #fff;
+    position: relative;
+}
+.cbxwpbkmarklistwrap .addto-head .cbxwpbkmarktrig_label{
+
+}
+.cbxwpbkmarklistwrap .addto-head .cbxwpbkmarktrig_close{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 21px;
+    height: 21px;
+    background: no-repeat url('../img/icon.png') -159px -204px;
+
+}
+
+
+.itemicon {
+    float: right;
+}
+
+.lbjs-item {
+    padding: 5px;
+}
+
+
+
+a.cbxwpbkmarkaddnewcatcreate, a.cbxwpbkmarkaddnewcatcreate:hover, a.cbxwpbkmarkaddnewcatcreate:focus {
+    border-bottom: 1px solid #fff !important;
+    padding: 6px;
+    line-height: 18px;
+    font-size: 14px;
+    /*margin-bottom: 10px;*/
+    background-color: #42A5F5;
+    color: #fff;
+}
+
+.cbx-bookmark-error {
+    color: #a94442;
+}
+
+/*.cbx-onclick-loading {
+    float: right;
+    text-align: left;
+    display: none;
+}*/
+
+/*.cbx-onclick-loading img {
+    text-align: left;
+}*/
+
+.cbxlbjs {
+    margin: 0px;
+    padding: 0px;
+    height: 250px;
+}
+
+.cbxlbjs .cbxlbjs-list {
+    margin: 0px;
+    overflow: auto;
+    padding: 0px;
+    list-style: none;
+}
+
+.cbxlbjs .cbxlbjs-list .cbxlbjs-item {
+    margin: 0px !important;
+    padding: 5px !important;
+    list-style: none !important;
+    clear: both !important;
+    background: none !important;
+    float: left !important;
+}
+
+.cbxlbjs .cbxlbjs-list .cbxlbjs-item .cbxlbjs-item-name{
+    width: 220px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+}
+/*
+.cbxlbjs .cbxlbjs-list .cbxlbjs-item:not([disabled]) {
+    cursor: pointer;
+}
+
+.cbxlbjs .cbxlbjs-list .cbxlbjs-item:hover:not([disabled]) {
+    background: rgba(112, 147, 216, 0.9);
+    color: #fff;
+}
+*/
+/*
+.cbxlbjs .cbxlbjs-list .cbxlbjs-item[selected] {
+    background: rgba(112, 147, 216, 0.5);
+    color: #fff;
+}
+
+.cbxlbjs .cbxlbjs-list .cbxlbjs-item[disabled] {
+    color: #999;
+    cursor: default;
+}
+*/
+
+.cbxlbjs .cbxlbjs-searchbar-wrapper {
+    margin: 0px;
+    position: relative;
+
+}
+
+.cbxlbjs .cbxlbjs-searchbar {
+    margin: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px 25px 5px 5px;
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+
+    line-height: 26px;
+    font-size: 16px;
+
+
+}
+.cbxlbjs .cbxlbjs-searchbar-icon{
+    background: no-repeat url('../img/icon.png') -416px -455px;
+    background-size: auto;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    right: 5px;
+    top: 9px;
+    content: "";
+    display: inline-block;
+}
+.cbxlbjs .cbxlbjs-searchbar:focus{
+    border-width: 1px 0 1px 0;
+    outline: 0px solid #ccc;
+}
+
+.cbxlbjs-item:before {
+    content: "";
+    margin-right: 3px;
+    vertical-align: middle;
+    background: no-repeat url('../img/icon.png') -165px -162px;
+    background-size: auto;
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+}
+
+.cbxlbjs-item[data-incat="1"]:before {
+    content: "";
+    margin-right: 3px;
+    vertical-align: middle;
+    background: no-repeat url('../img/icon.png') -109px -367px;;
+    background-size: auto;
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    float: left;
+
+}
+
+.cbxlbjs-item[data-privacy="1"]:after,
+.cbxlbjs-item-widget[data-privacy="1"]:after {
+    content: "";
+    margin-right: 3px;
+    vertical-align: middle;
+    background: no-repeat url('../img/icon.png') -431px -357px;
+    background-size: auto;
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    float: right;
+}
+
+.cbxlbjs-item[data-privacy="0"]:after,
+.cbxlbjs-item-widget[data-privacy="0"]:after {
+    content: "";
+    margin-right: 3px;
+    vertical-align: middle;
+    background: no-repeat url('../img/icon.png') -93px -202px;
+    background-size: auto;
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    float: right;
+}
+
+.cbxwpbookmark-widget-list {
+
+}
+
+.cbxbmmostlisting ul.product_list_widget {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cbxbmmostlisting ul.product_list_widget li {
+    padding: 4px 0;
+    margin: 0;
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.cbxbmmostlisting ul.product_list_widget li a {
+    display: block;
+    /*font-weight: 700;*/
+    border-bottom: 0px;
+}
+
+.cbxbmmostlisting ul.product_list_widget li img {
+    float: right;
+    margin-left: 4px;
+    max-width: 32px;
+    height: auto;
+    box-shadow: none;
+}
+
+.cbxwpbookmark-widget-list i {
+    /*float: right;*/
+}
+
+.cbxbookmark-delete-btn:before {
+    content: "";
+    margin-right: 3px;
+    vertical-align: middle;
+    background: no-repeat url('../img/icon.png') -37px -343px;
+    background-size: auto;
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+}
+
+.cbxbookmark-delete-btn span, .cbxbookmark-post-delete span, .cbxbookmark-cat-save span {
+    display: none;
+    background: url("../img/ajax-loader-small.gif") left top no-repeat;
+    width: 16px;
+    height: 16px;
+}
+
+.cbxbookmark-edit-btn:before {
+    content: "";
+    margin-right: 3px;
+    vertical-align: middle;
+    background: no-repeat url('../img/icon.png') -235px -367px;
+    background-size: auto;
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+}
+
+.cbxwpbookmark-button-holder {
+    float: right;
+}
+
+.my-privacy {
+    float: left;
+}
+
+.my-privacy[data-cbxbookmarkprivacy="1"]:before {
+    content: "";
+    margin-right: 3px;
+    vertical-align: middle;
+    background: no-repeat url('../img/icon.png') -431px -357px;
+
+    background-size: auto;
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    float: right;
+}
+
+{
+
+}
+
+.cbxbookmark-category-list, .cbxwpbookmark, .cbxbookmark-mycat-panel, .cbxbookmark-mypost-panel {
+    list-style-type: none;
+}
+
+.cbxbookmark-mycat-panel {
+
+}
+
+.cbxbookmark-mycat-panel li {
+    margin-bottom: 10px;
+}
+
+.cbxbookmark-mycat-editbox {
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    line-height: 18px;
+
+}
+
+.cbxbookmark-mycat-editbox .cbxbmedit-catname {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 4px 12px;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.cbxbookmark-mycat-editbox .cbxbmedit-privacy {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0px 12px;
+}
+
+.cbxbookmark-mycat-editbox .cbxbookmark-cat-save {
+    font-size: 14px;
+    line-height: 18px;
+    border-bottom: 0px !important;
+}
+
+.cbxbookmark-mycat-editbox .cbxbookmark-btn {
+    display: inline-block;
+    *display: inline;
+    padding: 4px 12px;
+    margin-bottom: 0;
+    *margin-left: .3em;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    *background-color: #e6e6e6;
+    background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+    background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+    background-repeat: repeat-x;
+    border: 1px solid #cccccc;
+    *border: 0;
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    /*border-bottom-color: #b3b3b3;*/
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    *zoom: 1;
+
+}
+
+.cbxbookmark-mycat-editbox .cbxbookmark-cat-close {
+    border-bottom: 0px !important;
+    font-size: 14px;
+    line-height: 18px;
+
+}
+
+.cbxbookmark-mycat-editbox .cbxbookmark-cat-save a {
+    color: #fff;
+}
+
+/****busy icon***/
+.cbxwpbm_ajax_icon {
+    display: none;
+}
+
+
+.cbxwpbookmark-mylist{
+
+    margin-left: 20px;
+}
+
+.cbxwpbookmark-mylist li{
+
+}
+
+.cbxwpbookmark-mylist li a{
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.cbxwpbookmark-mylist-sc{
+
+}
+
+.cbxwpbookmark-mylist-sc-more {
+    margin-bottom: 5px;
+}
+
+.cbxbookmark-more-wrap{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.cbxbookmark-alert{
+    padding: 5px 10px;
+    margin:10px 0;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 22px;
+}
+.cbxbookmark-alert-info{
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.cbxbookmark-alert-success{
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.cbxbookmark-alert-warning{
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.cbxbookmark-alert-error{
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.cbxbookmark-more {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.cbxlbjs-item-widget_dropdown {
+    margin-bottom: 10px;
+}
+
+
+/*custom radio switch button*/
+.cbxbookmark-switch-field {
+}
+
+
+
+.cbxbookmark-switch-field input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+}
+
+.cbxbookmark-switch-field label {
+    float: left;
+    display: inline-block;
+    width: auto !important; /* saves conflict with twitter bootstrap */
+    line-height: 18px;
+
+    background-color: #e4e4e4;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: none;
+    padding: 6px 14px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition:    all 0.1s ease-in-out;
+    -ms-transition:     all 0.1s ease-in-out;
+    -o-transition:      all 0.1s ease-in-out;
+    transition:         all 0.1s ease-in-out;
+}
+
+.cbxbookmark-switch-field label:hover {
+    cursor: pointer;
+}
+
+.cbxbookmark-switch-field input:checked + label {
+    background-color: #42A5F5;
+    color: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.cbxbookmark-switch-field label:first-of-type {
+    border-radius: 4px 0 0 4px;
+}
+
+.cbxbookmark-switch-field label:last-of-type {
+    border-radius: 0 4px 4px 0;
+}
+
+.cbxwpbkmarklist-nocatfound{
+    padding: 10px;
+    position: absolute;
+    top:45%;
+    text-align: center;
+}
+
+.cbxwpbkmarklist-nocatfound a.cbxwpbkmarklist-nocatfoundtrig{
+    color: #a94442;
+    font-size: 14px; line-height: 20px;
+}
